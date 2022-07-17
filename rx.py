@@ -79,6 +79,6 @@ def main(host, port):
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument('--port',  default=5555)
-    args.add_argument('--host', default="192.168.0.6")
+    args.add_argument('--host', default="192.168.0.1")
     parsed_args = args.parse_args()
     main(parsed_args.host, parsed_args.port)
